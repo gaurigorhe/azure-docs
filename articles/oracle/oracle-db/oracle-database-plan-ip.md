@@ -31,7 +31,7 @@ The client subnet has the following IP address requirements:
 - Each virtual machine cluster requires 3 IP addresses for [Single Client Access Names (SCANs)](https://docs.oracle.com/en/cloud/paas/exadata-cloud/csexa/connect-db-using-net-services.html), regardless of how many virtual machines are in the virtual machine cluster.
 - In the client subnet, 17 IP addresses are reserved for networking services, regardless of how many virtual machine clusters are in the client subnet. The 17 IP addresses are the first 16 IP addresses and the last IP address.
 
-**Example**: The number of IP addresses required for a client subnet that has one virtual machine cluster with two virtual machines is *11 IPs (one virtual machine cluster with two virtual machines, plus three SCANs) + 17 IPs (for networking services) = 28 IPs*.
+**Example**: The number of IP addresses required for a client subnet that has one virtual machine cluster with two virtual machines is *11 IPs (one virtual machine cluster with two virtual machines, plus three SCANs) + 13 IPs (for networking services) = 24 IPs*.
 
 ### Scenarios: CIDR size required for a client subnet
 
